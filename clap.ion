@@ -1,5 +1,5 @@
-nt buttonpin = 4;
-int relay = 7;
+int buttonpin = 4;  //connect this to pin DO of your sound sensor
+int relay = 7;  //connect this to the postive terminal of your led
 
 int clap = 0;
 long detection_range_start = 0;
